@@ -1,0 +1,105 @@
+{
+  "format": "custom",
+  "id": "settings",
+  "label": "settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "name",
+          "placeholder": ""
+        }
+      },
+      "nav_item": {
+        "type": "Group",
+        "config": {
+          "label": "nav item",
+          "repeat": true,
+          "fields": {
+            "nev_link": {
+              "type": "Link",
+              "config": {
+                "label": "nev link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "lable": {
+              "type": "Text",
+              "config": {
+                "label": "lable",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "cta_link": {
+        "type": "Link",
+        "config": {
+          "label": "CTA link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "cta_lable": {
+        "type": "Text",
+        "config": {
+          "label": "CTA lable",
+          "placeholder": ""
+        }
+      },
+      "twitter_link": {
+        "type": "Link",
+        "config": {
+          "label": "twitter link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "github_link": {
+        "type": "Link",
+        "config": {
+          "label": "Github link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "linkdin_link": {
+        "type": "Link",
+        "config": {
+          "label": "linkdin link",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    },
+    "SCO and metadata": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta title",
+          "placeholder": ""
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta description",
+          "placeholder": ""
+        }
+      },
+      "og_image": {
+        "type": "Image",
+        "config": {
+          "label": "OG Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

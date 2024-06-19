@@ -1,0 +1,59 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "exclaimed",
+				"type": "Text"
+			},
+			"body": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "explanation",
+									"type": "Text"
+								}
+							],
+							[
+								"time_period",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "slightly",
+									"type": "Text"
+								}
+							],
+							[
+								"institution",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "win",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"discription": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Est veniam voluptate excepteur id nulla dolore deserunt labore velit est id occaecat elit sint. Dolore est non ipsum magna ea labore mollit amet et culpa aliqua reprehenderit consectetur pariatur occaecat."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

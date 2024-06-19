@@ -1,0 +1,61 @@
+{
+  "id": "contant_index",
+  "type": "SharedSlice",
+  "name": "ContantIndex",
+  "description": "ContantIndex",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          }
+        },
+        "contant_type": {
+          "type": "Select",
+          "config": {
+            "label": "Contant type",
+            "placeholder": "",
+            "options": [
+              "Blog",
+              "Project"
+            ]
+          }
+        },
+        "discription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Discription",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "view_more_text": {
+          "type": "Text",
+          "config": {
+            "label": "View more Text",
+            "placeholder": ""
+          }
+        },
+        "fallback_item_image": {
+          "type": "Image",
+          "config": {
+            "label": "Fallback item image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
